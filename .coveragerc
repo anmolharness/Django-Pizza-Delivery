@@ -13,4 +13,4 @@ omit =
    *admin.py
 
 [html]
-#directory = test_coverage_report
+directory = test_coverage_report

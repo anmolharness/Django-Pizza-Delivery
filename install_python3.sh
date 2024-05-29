@@ -60,7 +60,7 @@ rm $TARBALL_TEMP*
 
 # Activate the virtual environment and install requirements
 source /venv3/bin/activate
-pip install --upgrade pip
+#pip install --upgrade pip
 pip install -r /harness/requirements.txt
 deactivate
 

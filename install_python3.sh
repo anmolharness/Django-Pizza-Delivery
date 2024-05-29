@@ -61,7 +61,7 @@ rm $TARBALL_TEMP*
 # Activate the virtual environment and install requirements
 source /venv3/bin/activate
 pip install --upgrade pip
-pip install -r /appenv/src/requirements.txt
+pip install -r /harness/requirements.txt
 deactivate
 
 echo "Python 3.8 has been installed successfully."

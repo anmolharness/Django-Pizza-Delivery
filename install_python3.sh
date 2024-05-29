@@ -38,7 +38,7 @@ tar -zxvf $TARBALL_TEMP --strip-components=1 -C $TEMP_DIR
 cd $TEMP_DIR
 
 # Create installation directory
-cd /
+echo $PWD
 mkdir /python3
 
 # Configure, build, and install Python
@@ -50,6 +50,8 @@ LDFLAGS="-Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -specs
     --enable-ipv6 --enable-loadable-sqlite-extensions --with-dbmliborder=bdb:gdbm --with-computed-gotos --with-system-expat --with-system-ffi
 make
 make install
+echo '----------'
+echo $PWD
 /python3/bin/pip3 --version
 
 # Clean up temporary files

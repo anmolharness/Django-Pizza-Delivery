@@ -38,6 +38,7 @@ tar -zxvf $TARBALL_TEMP --strip-components=1 -C $TEMP_DIR
 cd $TEMP_DIR
 
 # Create installation directory
+cd /
 mkdir /python3
 
 # Configure, build, and install Python
@@ -56,11 +57,12 @@ rm -r $TEMP_DIR
 rm $TARBALL_TEMP*
 
 # Create a virtual environment named 'venv3'
+cd /
 /python3/bin/python3.8 -m venv /venv3
 
 # Activate the virtual environment and install requirements
 source /venv3/bin/activate
-#pip install --upgrade pip
+pip install --upgrade pip
 pip install -r /harness/requirements.txt
 deactivate
 

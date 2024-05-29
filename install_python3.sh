@@ -3,6 +3,7 @@
 # Install necessary dependencies
 #minimal_apt_get_install libssl-dev libffi-dev libdb-dev libgdbm-dev build-essential
 apt-get update && apt-get install -y \
+    curl \
     build-essential \
     libssl-dev \
     zlib1g-dev \

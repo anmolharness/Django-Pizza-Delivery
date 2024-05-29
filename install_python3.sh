@@ -1,7 +1,29 @@
 #!/bin/bash -ex
 
 # Install necessary dependencies
-minimal_apt_get_install libssl-dev libffi-dev libdb-dev libgdbm-dev build-essential
+#minimal_apt_get_install libssl-dev libffi-dev libdb-dev libgdbm-dev build-essential
+apt-get update && apt-get install -y \
+    build-essential \
+    libssl-dev \
+    zlib1g-dev \
+    libncurses5-dev \
+    libncursesw5-dev \
+    libreadline-dev \
+    libsqlite3-dev \
+    libgdbm-dev \
+    libdb-dev \
+    libbz2-dev \
+    libexpat1-dev \
+    libgdbm-dev \
+    liblzma-dev \
+    tk-dev \
+    libffi-dev \
+    wget \
+    tzdata \
+    && ln -fs /usr/share/zoneinfo/$TZ /etc/localtime \
+    && dpkg-reconfigure --frontend noninteractive tzdata \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
 # Create temporary directories
 TEMP_DIR=`mktemp -d -t python_XXXXXXXXXX`

@@ -11,10 +11,10 @@ ENV APP_DIR /appenv/src/
 WORKDIR $APP_DIR
 
 # Copy the script into the container
-COPY install_python38.sh /tmp/install_python38.sh
+COPY install_python3.sh /tmp/install_python3.sh
 
 # Make the script executable
-RUN chmod +x /tmp/install_python38.sh
+RUN chmod +x /tmp/install_python3.sh
 
 # Run the script to install Python 3.8
-RUN /tmp/install_python38.sh
+RUN /tmp/install_python3.sh

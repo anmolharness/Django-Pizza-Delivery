@@ -55,6 +55,11 @@ python3.8 --version
 cd /
 python3.8 -m venv /venv3
 
+#install dependencies
+source /venv3/bin/activate
+pip install --upgrade pip
+pip install -r /harness/requirements.txt
+deactivate
 # Clean up
 cd /
 rm -rf /usr/src/python

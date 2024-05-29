@@ -33,10 +33,10 @@ rm -r $TEMP_DIR
 rm $TARBALL_TEMP*
 
 # Create a virtual environment named 'venv3'
-/python3/bin/python3.8 -m venv /appenv/src/venv3
+/python3/bin/python3.8 -m venv /venv3
 
 # Activate the virtual environment and install requirements
-source /appenv/src/venv3/bin/activate
+source /venv3/bin/activate
 pip install --upgrade pip
 pip install -r /appenv/src/requirements.txt
 deactivate

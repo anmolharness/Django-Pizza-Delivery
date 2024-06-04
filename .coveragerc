@@ -1,4 +1,5 @@
 [run]
+parallel=True
 omit =
  */environment/*
  */migrations/*
@@ -14,3 +15,4 @@ omit =
 
 [html]
 directory = test_coverage_report
+

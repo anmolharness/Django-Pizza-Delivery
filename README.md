@@ -1,6 +1,6 @@
 <h1 style="color:rgb(133, 24, 24); text-align:center">Django Pizza Delivery App</h1>
 
-<h1>Live Demo NHI DUNGA</h1>
+<h1>Live Demo NHI DUNGA Pyar Se</h1>
 <a href="https://notarious2.pythonanywhere.com/">Visit</a> https://notarious2.pythonanywhere.com/
 
 <img src="images/front_page.png" alt="Front page"/>

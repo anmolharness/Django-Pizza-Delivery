@@ -146,6 +146,7 @@ python manage.py test functional_tests
 
 ```
 python manage.py test users store orders
+wasup wasup wasup
 ```
 
 **Test coverage report**

@@ -155,7 +155,7 @@ wasup wasup wasup
 coverage run manage.py test
 ```
 
-to show report in command line:
+to show report in command line: blah blah blah
 
 ```
 coverage report

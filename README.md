@@ -163,7 +163,7 @@ coverage report
 
 generates html report in <strong>test_coverage_report</strong> folder
 
-testing the trigger again now one more time
+testing the trigger again now one more time one last time
 
 ```
 coverage html

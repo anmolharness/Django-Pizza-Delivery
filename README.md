@@ -1,6 +1,6 @@
-<h1 style="color:rgb(133, 24, 24); text-align:center">Django Pizza Delivery App</h1>
+<h1 style="color:rgb(133, 24, 24); text-align:center">Django Pizza Delivery App Demo hi Demo</h1>
 
-<h1>Live Demo</h1>
+<h1>Live Demo NHI DUNGA Pyar Se</h1>
 <a href="https://notarious2.pythonanywhere.com/">Visit</a> https://notarious2.pythonanywhere.com/
 
 <img src="images/front_page.png" alt="Front page"/>
@@ -146,6 +146,7 @@ python manage.py test functional_tests
 
 ```
 python manage.py test users store orders
+wasup wasup wasup
 ```
 
 **Test coverage report**
@@ -161,6 +162,8 @@ coverage report
 ```
 
 generates html report in <strong>test_coverage_report</strong> folder
+
+testing the trigger 
 
 ```
 coverage html

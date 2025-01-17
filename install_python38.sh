@@ -27,7 +27,7 @@ apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Define Python version and source URL
-PYTHON_VERSION='<+stage.variables.python>'
+PYTHON_VERSION=$TOKEN
 echo $PYTHON_VERSION
 PYTHON_SRC_URL=https://www.python.org/ftp/python/$PYTHON_VERSION/Python-$PYTHON_VERSION.tgz
 
